@@ -4,11 +4,11 @@
 
 This project is meant to be a landing page for anyone wanting to learn more about me as a developer! You can use the link about to access my personal website and explore more there.
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/ElCX1TfBp5E)
 
 # Web Pages
 
-{Describe each of the web pages you created and how the web app transitions between each of them.  Also describe what is dynamically created on each page.}
+This is currently just one page under the domain shelbyvasas.com but as I create more projects, they will be added as sub domains. This site is server side rendered and calls a public joke api as you can see in the side drawer overlay.
 
 # Development Environment
 
