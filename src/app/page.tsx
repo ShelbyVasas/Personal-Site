@@ -1,13 +1,15 @@
+"use client"
 import Image from "next/image";
 import Link from "next/link";
+import Navbar from "~/components/Navbar";
+import CustomFooter from "~/components/CustomFooter";
 
 export default function HomePage() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center bg-[url(/ocean.jpeg)] bg-center">
-      <div className="h-screen w-full bg-black opacity-50">
-
-      </div>
-      <div className="absolute h-screen w-full flex items-center justify-center font-serif">
+    <main className="flex min-h-screen w-full flex-col bg-white bg-center">
+      <Navbar/>
+      <div className="flex flex-col md:flex-row items-center bg-[#222] m-8">
+        <img src="./me1.png" alt="portrait" className="max-w-full max-h-screen p-8"></img>
         <div className="max-w-xl mx-auto text-white p-6 rounded">
             <h1 className="text-3xl font-semibold mb-4">Shelby Vasas</h1>
             <p className="text-gray-400 mb-1">/ˈʃɛlbi vəˈsas/</p>
@@ -29,6 +31,10 @@ export default function HomePage() {
         </div>
 
       </div>
+      {/* <div className="absolute h-screen w-full flex items-center justify-center font-serif">
+
+      </div> */}
+      <CustomFooter/>
     </main>
   );
 }
