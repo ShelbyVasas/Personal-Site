@@ -1,6 +1,5 @@
 "use client"
 import Link from "next/link"
-import Jokes from "./Jokes"
 
 export default function Drawer() {
     return (
@@ -20,7 +19,6 @@ export default function Drawer() {
                   <li><Link href="https://github.com/ShelbyVasas" className="text-2xl">GITHUB</Link></li>
                   <li><Link href="https://www.linkedin.com/in/shelby-vasas/" className="text-2xl">LINKEDIN</Link></li>
                 </div>
-                <Jokes/>
               </ul>
             </div>
         </div>
